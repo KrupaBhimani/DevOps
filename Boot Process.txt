@@ -1,0 +1,41 @@
+﻿Boot Process
+Step 1: power on
+Step 2: BIOS
+   * Perform system integrity check                 
+                
+   * Search, load, execute bootloader program for hard drive
+         
+Step 3: MBR (master boot record)
+   * Three         sections (primary bootloader, partition table info, MBR validation                 check)
+                 
+   * Less than 512 bytes size
+                 
+   * Located in bootable disk
+                 
+   * Contain info about grab
+                 
+   * Loads and executes grab boot loader
+         
+Step 4: GRUB
+      * You can choose which kernel image execute
+                 
+      * Display splash screen
+                 
+      * Loads default kernel image
+         
+Step 5: Kernel
+         * Executes init program located in /sbin/init
+                 
+         * Loads file system and execute first program
+         
+Step 6: init
+            * Decides he linux runlevels
+                 
+            * Runlevels are 0,1,2,3,4,5,6
+         
+Step 7: run level
+               * S and K Scripts
+                 
+               * S -> Startup Scripts
+                 
+               * K -> Stopping scripts
