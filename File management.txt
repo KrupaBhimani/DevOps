@@ -1,0 +1,50 @@
+﻿File System in linux
+EXT – extended file system
+EXT1 – older version, No longer used
+EXT2- allows users to manage 2TB data.
+EXT3- upgraded version of EXT2
+* Contains         backward compatibility
+         
+* Drawback         – does not support servers
+         
+   * Does                 not support file recovery
+         
+EXT4- compatible for SSD
+      * Default         file system in linux
+
+JFS – can be used in place of EXT4 where stability is needed
+Reiser FS – alternative of EXT3
+XFS – developed for parralel I/O
+         * NASA         uses this
+
+Btrfs – used for fault tolerance
+            * Not         good for production system
+
+Swap file system – used for memory paging
+
+
+
+
+
+
+
+
+File management related commands:
+Ls: List all file, folders
+Ls -l: detailed information of all files
+Ls –a: list out hidden file
+Touch: create empty file
+Mkdir: making directory
+Rmdir: remove directory
+Rm: remove file
+Mv [source] [dest] : move file
+Mv [file 1] [file 2] : rename file
+Wc filename: list lines words characters in file
+Find: search file
+Locate: search file in all directories
+Grep: searches pattern in particular file
+Df –h: see space in system file
+
+
+What is difference between find and locate?
+               * Ans:          find commands search the file in current directory whereas locate         command search the file in all directories.
