@@ -1,0 +1,27 @@
+﻿Process management:
+Process – any command you give to machine it starts a process
+Foreground process – run on screen, need user input (ex- office process)
+Background process – run in background, does not need user input (ex- antivirus)
+Zombie process – exit status of child process is not communicated with parent process then child process becomes zombie
+Orphan – parent is killed while child is executing the process
+Daemon process – kind of process that runs in background.
+
+
+
+
+Some commands:
+Bg- command used to move process in background
+Fg – command used to continue a program which was stopped
+Top – talks about all running process
+Ps – stands for process status
+Ps pid – give status of specific process
+Pidof – give process id of process
+Kill pid – kills process
+Kill –g pid – forcefully kill process
+Nice – start process with given priority
+Renice – change the priority of process
+
+
+
+
+Package manager – it is a tool for install, remove, upgrade the software package
