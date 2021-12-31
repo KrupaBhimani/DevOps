@@ -1,0 +1,110 @@
+﻿Data Center & Clouds
+
+
+Traditional Computing components: 
+* Hardware
+* OS
+* Application
+
+
+What is cloud computing? 
+* It is an on -demand service of compute resources, storage and computing power over the internet.
+
+
+Cloud Service Models
+1. IAAS (Infrastructure as a service)
+   1. Virtual hardware that replaces physical
+   2. Can scale up or down based on needs
+   3. Pay what you use
+   4. Provides resources for high performance computing
+   5. Examples: contain compute, block storage and network
+2. PAAS (Platform as a Service)
+   1. Add OS and software
+   2. Provides runtime environment
+   3. Allows developers to focus an apps
+   4. Provides load balancing and auto scaling
+   5. Examples: object storage, identity management(user authentication), database
+3. SAAS (Software as a Service)
+   1. Apps are accessed over internet
+   2. Largest used in three models
+   3. Works on monthly fee
+   4. Examples: monitoring, content, communication
+
+
+Cloud Deployment model:
+1. Public Cloud: 
+   1. Whatever client want, he gets
+   2. Scale up and down
+   3. Operated by third party companies. Example; AWS, Azure, Gcloud
+   4. Pay as you go
+2. Private Cloud(on premises):
+   1. Purchase virtualize software
+   2. Set up individual clouds
+   3. Limited scalability
+   4. Advantage: Control all of its own security
+3. Hybrid cloud:
+   1. Combination of both public and private clouds
+   2. Tight control of data
+   3. Feature of both
+4. Community Cloud:
+   1. Used for organization
+   2. Less Scalability & flexibility
+
+
+Characteristics of Cloud
+* Elastic: grow and shrink as client need
+* Resource pooling
+* Rapid elasticity
+* Self service: access any resources any time
+* Scalability: use few or more resources
+* Broad network access
+* Pay as you go
+* Availability: resources are available when client needs
+
+
+Networking:
+
+
+* RDP: remote desktop protocol (used to access windows instance)
+* SSH: Secure shell (used for linux instance)
+* VPN: is a secure and private network connection that occurs through public network
+* Direct connection: direct physical connection to your company network & cloud provider
+* Load balancing: for example: balance load of the website by distributing request to multiple servers
+   * Benefits: performance, scalability, reliability
+* DNS: DNS will provides IP add of domain
+
+
+ Cloud Storage
+
+
+Benefit: 
+* easy file access
+* Easy sharing
+* redundancy(back up)
+* Very cheap
+Feature: 
+* Scalability
+* Transparency
+* Standard user interface
+
+
+Example: dropbox, icloud,one drive, Google drive 
+
+
+Storage Type:
+
+
+1. File Storage:
+   1. Windows based system
+2. Block Storage:
+   1. Allows files to be broken into more manageable chunks
+   2. Great for large structured data that needs to be updated frequently
+3. Object Storage: 
+   1. Object level storage
+   2. It contain data, metadata tag, object attributes
+4. CDN (content delivery network)
+   1. Allows user from remote location to access data on nearby server than the original server
+   2. Benefits: 
+      1. Increased website performance
+      2. Increased website reliability
+      3. Greater resource scalability
